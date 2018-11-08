@@ -1,0 +1,16 @@
+wiremock.port: 4422
+server.port: 4433
+todoitemserver.url: 127.0.0.1:${wiremock.port}
+backupDataLoaderTaskExecutor.threads: 10
+cvsExporter.batchSize: 10
+backupData.batchSize: 10
+updateStatusForStuckBackups.fixed.rate.ms: 30000
+embedded.mongodb:
+  host: localhost
+  port: 12345
+  dbname: embedded_db
+  version: 3.5.5
+feign.hystrix.enabled: true
+logging.level:
+  root: INFO
+  oaa.todobackup: DEBUG

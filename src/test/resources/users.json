@@ -1,0 +1,40 @@
+[
+  {
+    "id": 0,
+    "username": "user1",
+    "email": "user1@mail.fake",
+    "todos": [
+      {
+        "id": 1,
+        "subject": "u1 s1",
+        "dueDate": "2000-01-02 12:13:14",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "user2",
+    "email": "user2@mail.fake",
+    "todos": [
+      {
+        "id": 3,
+        "subject": "u2 s1",
+        "dueDate": "2001-01-02 12:13:14",
+        "done": true
+      },
+      {
+        "id": 4,
+        "subject": "u2 s2",
+        "dueDate": "2002-01-02 12:13:14",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "username": "user3",
+    "email": "user3@mail.fake",
+    "todos": []
+  }
+]
